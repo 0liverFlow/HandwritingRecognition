@@ -150,6 +150,53 @@ Plus brièvement, **la présence d'un data scientist n'est pas du tout nécessai
 <h3>Fonctionnement du Machine Learning</h3>
 ![image](https://user-images.githubusercontent.com/64969369/195976630-bf69fb8f-e7c8-4184-81f9-70574af32d75.png)
 
+Il est indéniable que les données représentent l'essence du Machine Learning.</br>
+Comme l'a si bien dit le mathématicien Clime Humby : ***"Data is the new oil. Like oil, data is valuable, but if unrefined it cannot really be used. It has to be changed into gas, plastic, chemicals, etc. to create a valuable entity that drives profitable activity. So, must data be broken down, analysed for it to have value."***</br>
+Donc en se basant sur le concept des données, le Machine Learning peut être défini comme **l'utilisation des données permettant de résoudre des problèmes**.</br>
+Après la phase de récolte de données, on utilisera le ML pour créer des modèles.</br>
+Un **modèle** est le résultat(fichier) généré après avoir entraîné un algorithme à l'aide du dataset de training. En gros, vous entraînez un modèle sur un ensemble de données, en lui fournissant un algorithme qu'il peut utiliser pour "raisonner" et apprendre à partir du jeu de données fournie préalablement.</br>
+Le ML repose sur deux grandes phases à savoir : 
+- La phase d'entraînement
+- La phase de prédiction
+La phase d'entraînement intervient généralement après avoir récupérées, nettoyées et explorées les données.</br>
+Une fois terminée, on obtient notre modèle dont on va évaluer les performances à l'aide du **dataset de test(test set)**.</br>
+C'est la qu'intervient la phase de prédiction comme vous pouvez le voir sur la figure ci-dessus</br>
+<b>Note : </b>Généralement, on utilisera 80% de notre dataset pour le training et 20% pour le test.</br>
+
+<h3>Le traitement d'images</h3>
+Le traitement d'images est une discipline de l'informatique et des mathématiques qui étudie les images numériques et leurs transformations, dans le but d'améliorer leur qualité ou d'en extraire de l'information.</br>
+<b>Qu'est-ce qu'une image ?</b>
+Une image est constitué de **pixels.**</br>
+Chaque **pixel est représenté par un nombre ou un ensemble de nombres.** La plage de ces nombres est appelée la **profondeur de couleur ou profondeur de bits.**</br>
+En gros, la **profondeur de couleur indique le nombre maximum de couleurs potentielles qui peuvent être utilisées dans une image.**</br>
+Dans une image d'un octet(8bits) de type noir et blanc, chaque pixel à une valeur entre 0 et 255. </br>
+La plupart des images ont des couleurs de 24 bits ou plus.</br>
+Une image en RGB(Red Green Blue) signifie que la couleur d'un pixel est la combinaisondu rouge, vert et bleu.</br>
+Ainsi, chaque pixel contient un ensemble de trois valeurs(Par ex RGB(255,255,255) ou #FFF qui représente le blanc).</br>
+Une image de 800(width) * 600(height) contiendra 480000 px(abbr de pixel) ou 0.48 Mpx(Mégapixels).</br>
+<b>Comment fonctionne une caméra ?</b>
+Une caméra fonctionne comme une "mitraillette" à photos.</br>
+En effet, elle permet d'enregistrer des images de façon très rapide pour constituer un flux vidéo quin n'est rien d'autre en réalité qu'une séquence de trames d'images.</br>
+La quantité d'images récupérées avec une grande vitesse est ce qu'on appelle **"Frame Per Second(FPS) ou IPS(Images Par Seconde) en français"**.
+Plus simplement, le **FPS représente le nombre d'images récupérés par seconde.** </br>
+Cette fréquence peut être différente selon le type de diffusion et de qualité.</br>
+
+<h3>Optical Character Reconnaissance (OCR)</h3>
+La reconnaissance optique des caractères(ROC en fr) ou océrisation, désigne les **procédés informatiques pour la traduction d'images de textes imprimés ou dactylographiées en fichiers de texte.**<br>
+Un ordinateur a besoin d'un logiciel d'OCR pour mener à bien la réalisation de pareil tâches.<br>
+Le logiciel d'océrisation permet de récupérer le texte dans l'image d'un texte imprimé et de le sauvegarder dans un fichier pouvant être exploité dans un traitement de texte et stocké dans une BDD ou sur un support de stockage(**Tesseract** est par exemple un logiciel d'océrisation open-source publié en 2006)<br>
+Grace à l'OCR, un grand nombre de documents papier pourront être numérisés en texte lisible à la machine, peu importe la langue et le format dans lesquels il sont rédigés. Cette technique ***facilite non seulement le stockage mais rnd plus disponible des données qui auparavant étaient difficilement accessibles.***<br>
+<b>Info : </b> La **dactylographie** est une technique d'écriture à la machine à écrire.<br>
+<b>Info : </b>**Océriser**, c'est l'action de transformer une image de texte imprimé en fichier de texte numérique.<br>
+
+<h3>Les différents types d'apprentissage</h3>
+<h3>Différences entre le Machine Learning et le Deap Learning</h3>
+
+
+
+
+
+
 
 
 
