@@ -130,6 +130,23 @@ La figure ci-dessus représente le dataset MNIST(Modified National Institute of 
 Un programme informatique traditionnel effectue une tâche en suivant des instructions précises préalablement éditées par le développeur.<br>
 A contrario, un système de Machine Learning ne suit pas d'instructions mais apprend à partir de l'entraînement. Par conséquent, ses performances s'améliorent à chaque fois qu'il est exposé à de nouvelles données(il n'est pas statique).
 
+<h3>Feature Extraction</h3>
+![image](https://user-images.githubusercontent.com/64969369/195975966-f2ba9aaf-d9f9-429f-8fa8-134fd62b2a4c.png)
+
+Le **Feature Extraction ou extraction de caractéristiques** est un processus qui consiste à **réduire la dimensionnalité des types d'observation** faites sur des données brutes(texte, image, son), en un ensemble plus petit afin de **pouvoir modélisé plus facilement.**</br>
+Grosso modo, cela est très utile lorsque les observations sont trop volumineuses dans leur forme brute pour être modélisées directement par des algorithmes prédictifs.</br>
+En effet, à partir des données brutes à dispostion, on **sélectionnera des variables sur lesquelles s'appuyeront notre modèle pour s'entrainer et faire la prédiction.**</br>
+Il peut se faire **manuellement ou automatiquement.**</br>
+Dans le cas où il fait manuellement, un ingénieur(data scientist par ex) se chargera de déterminer les caractéristiques(variables) clés sur lesquelles s'appuyera notre algorithme pour résoudre un problème donné(ie faire la prédiction).</br>
+ Dans un tel cas, il est primordial pour le data scientist de comprendre le domaine d'activité sur lequel il va travailler afin d'être pertinent dans la définition des variables qui joueront un rôle capital lors de la prédiction.</br>
+A présent, mettons nous dans la peau d'un data scientist chargé de concevoir un modèle capable de faire de la prédiction d'achat d'un produit(déterminer oui ou non si un produit sera acheté ou non par un client).</br>
+Afin de résoudre ce problème, après avoir récupéré et nettoyé les données, le data scientist va maintenant passer à l'étape d'exploration avant d'entamer les phases de modélisation et d'évaluation/interprétation du modèle.</br>
+Lors de cette phase d'exploration, notre expert déterminera l'ensemeble des variables jugées pertinentes pour résoudre notre problème(achat ou non d'un produit).</br>
+Ces varaibles peuvent être en autres : l'age d'un invdividu, son sexe, ses centres d'intérêts, son revenu ect...</br>
+<b>Note : </b>Le Feature Extraction peut se faire de manière automatique également. Dans un tel cas les réseaux de neurone profonds des algorithmes de deep learning vont déterminer par eux-mêmes les caractéristiques importantes leurs permettant de faire une bonne prédiction</br>
+Plus brièvement, **la présence d'un data scientist n'est pas du tout nécessaire dans ce scénario(gain de temps).**</br>
+
+
 
 
 
