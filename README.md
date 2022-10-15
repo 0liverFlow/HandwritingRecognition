@@ -131,7 +131,8 @@ Un programme informatique traditionnel effectue une tâche en suivant des instru
 A contrario, un système de Machine Learning ne suit pas d'instructions mais apprend à partir de l'entraînement. Par conséquent, ses performances s'améliorent à chaque fois qu'il est exposé à de nouvelles données(il n'est pas statique).
 
 <h3>Feature Extraction</h3>
-![image](https://user-images.githubusercontent.com/64969369/195975966-f2ba9aaf-d9f9-429f-8fa8-134fd62b2a4c.png)
+![image](https://user-images.githubusercontent.com/64969369/195976124-8eef23d5-3160-41bf-af9e-d0f52195ee7e.png)
+
 
 Le **Feature Extraction ou extraction de caractéristiques** est un processus qui consiste à **réduire la dimensionnalité des types d'observation** faites sur des données brutes(texte, image, son), en un ensemble plus petit afin de **pouvoir modélisé plus facilement.**</br>
 Grosso modo, cela est très utile lorsque les observations sont trop volumineuses dans leur forme brute pour être modélisées directement par des algorithmes prédictifs.</br>
@@ -145,6 +146,10 @@ Lors de cette phase d'exploration, notre expert déterminera l'ensemeble des var
 Ces varaibles peuvent être en autres : l'age d'un invdividu, son sexe, ses centres d'intérêts, son revenu ect...</br>
 <b>Note : </b>Le Feature Extraction peut se faire de manière automatique également. Dans un tel cas les réseaux de neurone profonds des algorithmes de deep learning vont déterminer par eux-mêmes les caractéristiques importantes leurs permettant de faire une bonne prédiction</br>
 Plus brièvement, **la présence d'un data scientist n'est pas du tout nécessaire dans ce scénario(gain de temps).**</br>
+
+<h3>Fonctionnement du Machine Learning</h3>
+![image](https://user-images.githubusercontent.com/64969369/195976630-bf69fb8f-e7c8-4184-81f9-70574af32d75.png)
+
 
 
 
