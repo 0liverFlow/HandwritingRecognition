@@ -150,7 +150,7 @@ Ces varaibles peuvent être en autres : l'age d'un invdividu, son sexe, ses cent
 Plus brièvement, **la présence d'un data scientist n'est pas du tout nécessaire dans ce scénario(gain de temps).**</br>
 
 <h3>Fonctionnement du Machine Learning</h3>
-<img src="https://user-images.githubusercontent.com/64969369/195976630-bf69fb8f-e7c8-4184-81f9-70574af32d75.png" alt="How_Machine_Learning_Works" height="375px" width="900px">
+<img src="https://user-images.githubusercontent.com/64969369/195976630-bf69fb8f-e7c8-4184-81f9-70574af32d75.png" alt="How_Machine_Learning_Works" height="400px" width="600px">
 
 Il est indéniable que les données représentent l'essence du Machine Learning.</br>
 Comme l'a si bien dit le mathématicien Clime Humby : ***"Data is the new oil. Like oil, data is valuable, but if unrefined it cannot really be used. It has to be changed into gas, plastic, chemicals, etc. to create a valuable entity that drives profitable activity. So, must data be broken down, analysed for it to have value."***</br>
