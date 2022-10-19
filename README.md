@@ -3,11 +3,11 @@
 # Handwriting Recognition (HWR) ✍️
 # Résumé
 Dans le but d'obtenir notre diplôme de Licence en sciences Mathématiques et Informatiques, nous avons réalisé ce projet de fin d'études.<br>
-Très brièvement, ce dernier a pour but d'apprendre et de comprendre les bases de la reconnaissance d'objets en imagerie à l'aide des réseaux de neurones multicouches avec ou sans convolutions.<br>
+Très brièvement, ce dernier a pour but d'apprendre et de comprendre la reconnaissance d'objets en imagerie à l'aide des réseaux de neurones multicouches avec ou sans convolutions.<br>
 En quête de la bonne réalisation du projet, nous avons commencé par définir le problème en premier lieu.<br>
-Une fois cela fait, nous avons pu passer à l'étape suivante, qui consistait à comprendre le but de la reconnaissance d'objects précisement dans le cadre de l'écriture manuscrite.<br>
+Une fois cela fait, nous avons pu passer à l'étape suivante, qui consistait à comprendre le but de la reconnaissance d'objets précisement dans le cadre de l'écriture manuscrite.<br>
 Après avoir exécuté les étapes précédentes, nous avons finalement implémenté comme solution à notre problème, un programme capable de reconnaître les caractères manuscrits sur une image.<br>
-Pour mener à bien notre implémentation, nous avons choisi comme jeu de données, MNIST, qui contient un ensemble de chiffres sous différentes polices, ce qui nous a servi à entraîner notre modèle par apprentissage supervisé.<br>
+Pour mener à bien notre implémentation, nous avons choisi comme jeu de données, **MNIST**, qui contient un ensemble de chiffres sous différentes polices, ce qui nous a servi à entraîner notre modèle par apprentissage supervisé.<br>
 Au cours de cette étude, nous avons pu d'une part mettre en pratique l'ensemble de nos connaissances en Intelligence Artificielle, et d'autre part nous avons appris comment les ordinateurs acquièrent et traitent les images d'écritures manuscrites.
 
 # Objectifs du projet
@@ -35,6 +35,81 @@ La mise en oeuvre d'un système standard de reconnaissance d'écriture manuscrit
 - L'extraction de caractéristiques
 - La classification des formes<br>
 De nombreuses **étapes de prétraitement de l'image précèdent la mise en oeuvre de notre système**(Ces étapes peuvent être visualisées dans le PDF)
+# Outils utilisés
+La reconnaissance de caractères manuscrits en imagerie implique l'utilisation d'une panoplie outils, dont la majorité est développée en **Python**.<br>
+<h3>Python</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196743938-3ed163c1-b52d-422b-a4df-38f2f4c4053d.png" alt="Python_logo" height="375px" width="700px">
+
+**Python** est un langage de programmation *interprétéé, multiparadigme et multiplateforme* créé par **Guido Van Rossum** en 1991.<br>
+Il est beaucoup utilisé dans le domaine de l'IA notamment pour faire de l'exploration de données, la classification, le clustering et de l'analyse prédictive.<br>
+<h4>Installation</h4>
+<b>GNU/Linux</b><br>
+Exécuter la cmd suivante en tant que superuser : <b>sudo apt-get install python3</b><br>
+<b>Windows ou Mac</b><br>
+Si vous utilisez un PC Windows ou un Mac, il vous faudra suivre les étapes suivantes :<br>
+-Se rendre sur le <a href="https://www.python.org/" title="Visit Python official website">site officiel de Python </a><br>
+-Ensuite télécharger la dernière version Python disponible à partir de l'onglet <a href="https://www.python.org/downloads/" title="télécharger Python">Download</a><br>
+-Une fois le téléchargement terminée, aller dans le répertoire contenant votre archive, double-cliquer sur l'archive pour la décompresser puis installer finalement Python en suivant les différentes étapes qui s'afficheront sur votre écran.<br>
+<h3>Scikit-Learn</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196747254-831ba242-36b0-428d-8d35-0108b8b243d0.png" alt="Scikit_Learn_logo" height="375px" width="700px">
+
+**Scikit-Learn** une bibliothèque libre Python, destinée à l'apprentissage automatique.<br>
+Elle comprend notamment des fonctions pour estimer des **régréssions logistiques, des algorithmes de classification, des forêts aléatoires.**<br>
+Elle a été conçu pour s'harmoniser avec d'autres bibiliothèques libres de Python comme numpy et scipy.
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+<b>Note : </b>Avant de passer à l'installation des bibliothèques, il faut s'assurer que **pip**(utilitaire permettant d'installer des bibiliothèques, modules sur Python) soit **installé** et qu'il soit récent.<br>
+<b>pip install scikit-learn</b>
+
+<h3>NumPy</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196748394-8e39ab23-9502-40c9-9f2e-aefffcc016a0.png" alt="Numpy_logo" height="375px" width="700px">
+**NumPy** est une bibliothèque libre de Python, utilisée pour **manipuler des matrices ou tableaux multidimensionnels** ainsi que des **fonctions mathématiques opérant sur ces tableaux**.<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+<b>pip install numpy</b>
+
+<h3>Matplotlib</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196749809-af8ef512-9357-4823-8a68-f2c7b21f4c74.png" alt="Matplotlib_logo" height="375px" width="700px">
+
+**Matplotlib** est une bibliothèque de Python, utilisée pour **tracer et visualiser des données sous forme graphique**.<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+<b>pip install matplotlib</b>
+
+<h3>Pandas</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196750509-06e75734-2ebf-4571-befa-455c093d3c84.png" alt="Pandas_logo" height="375px" width="700px">
+
+**Pandas** est une bibliothèque Python utilisée pour **manipuler et analyser les données.**<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+<b>pip install pandas</b>
+
+<h3><Tensorflow</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196751114-7db1dc7e-3b95-4eca-a500-ac21f2748175.png" alt="Tensorflow_logo" height="375px" width="700px">
+
+**Tensorflow** est un outil open source de machine learning développé par **Google**.<br>
+ Il est utilisé pour **le dévelopement et l'entraînement de modèles de machine learning.**<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+<b>pip install tensorflow</b>
+
+<h3>Keras</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196752230-7f787660-427b-44ca-83d4-4c2f92de8fa6.png" alt="Keras_logo" height="375px" width="700px">
+
+**Keras** est une bibliothèque Python open source développé par le développeur de Google François Chollet.<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+<b>pip install keras</b>
+
+<h3>OpenCV</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196752798-9dbe17a2-dedb-46bb-b5b1-72e9bc9b2cab.png" alt="OpenCV_logo" height="375px" width="700px">
+
+**OpenCV(Open Computer Vision)** est une bibliothèque graphique Python<br>
+ Elle est **très utile dans le traitement d'images que ce soit pour la photo ou la vidéo.**<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+ Pour télécharger OpenCV, vous pouvez vous rendre sur <a hrf="https://github.com/opencv/opencv" title='téléchargr_openCV">github</a> et cloner le dépôt.
+  
 # Glossaire
 <h3>Intelligence Artificielle</h3>
 <img src="https://user-images.githubusercontent.com/64969369/194767092-3ed5896c-5350-4676-b6b0-419c191cab6d.png" alt="AI_Kesako" height="375px" width="700px">
@@ -42,12 +117,11 @@ De nombreuses **étapes de prétraitement de l'image précèdent la mise en oeuv
 **L'Intelligence Artificielle**(en anglais, Artificial Intelligence) est une **technologie algorithmique permettant à des machines de résoudre des problèmes complexes que l'on aurait cru réservés à l'intelligence humaine(Cedric Villani).**<br>
 Plus simplement, elle peut être définie comme ***l'imitation du raisonnement humain par la machine.***
 L'IA doit son émancipation notamment :
-- Au Big Data ou méga données(ensemble très volumineux de données provenant de nos activités quotidiennes sur Internet)
-- A l'augmentation frénétique de la capacité de calcul des ordinateurs
-- A l'amélioration et l'accessibilité d'algorithmes de traitement de données.<br>
+-Au Big Data ou méga données(ensemble très volumineux de données provenant de nos activités quotidiennes sur Internet)
+-A l'augmentation frénétique de la capacité de calcul des ordinateurs
+-A l'amélioration et l'accessibilité d'algorithmes de traitement de données.<br>
 <b>Note : </b>**Le Machine Learning et le Deep Learning sont des sous ensembles de l'IA.**
 <img src="https://user-images.githubusercontent.com/64969369/196711506-df6eb8cb-120c-4be4-8df6-d8b66a2ded05.png" alt="Machine_Learning_Kesako" height="450px" width="450px">
-
 
 
 <h3>Machine Learning</h3>
