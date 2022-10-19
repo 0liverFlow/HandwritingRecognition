@@ -83,7 +83,7 @@ A présent, parlons des différents algorithmes du deep learning.<br>
 On distingue plusieurs algorithmes de deep learning parmi lesquelles on peut citer les réseaux de neurones convolutionnels(CNN) et les réseaux de neurones récursifs(RNN pour Recurrent Neural Network).
 
 ## Réseau de Neurones Convolutionnels(CNN)
-![image](https://user-images.githubusercontent.com/64969369/194777612-2a72ac19-d468-46b3-bde9-b803a49d74d3.png)
+<img src="https://user-images.githubusercontent.com/64969369/194777612-2a72ac19-d468-46b3-bde9-b803a49d74d3.png" alt="Convolutionnal_Neural_Network_Kesako" height="375px" width="700px">
 
 Le CNN est un algorithme de deep learning principalement utilisé pour réaliser du traitement d'images et de la détection d'image.<br>
 Il est beaucoup utilisé de façon globale dans le domaine de la vision par ordinateur.<br>
@@ -92,7 +92,7 @@ Pour votre information, le **premier réseau de neurones convolutionnels** fut d
 Son CNN était capable de reconnaître les codes de boîte postale et les numéros.<br>
 
 ## Comment fonctionne un CNN
-![image](https://user-images.githubusercontent.com/64969369/194777788-98cce0eb-8989-4c64-b9d9-4a56280320fb.png)
+<img src="https://user-images.githubusercontent.com/64969369/194777788-98cce0eb-8989-4c64-b9d9-4a56280320fb.png" alt="How_CNN_Works" height="375px" width="700px">
 
 Un **CNN ou ConvNet** fonctionne en décomposant une image en de petits groupes de pixels **filtres(chaque filtre est une matrice de pixel).**<br>
 Le réseau de neurones fait par la suite une série de calculs sur ces pixels en les comparants aux pixels d'un modèle spécifique.<br>
@@ -263,25 +263,30 @@ Ci-dessous, vous trouverez une illustration du clustering :
 <img src="https://user-images.githubusercontent.com/64969369/196705792-e71a4896-6af8-4696-b3ef-97a845404ff6.png" alt="What_is_clustering" height="375px" width="700px">
 <b>Note : </b>Attention à **ne pas confondre le clustering avec la classification**, le tableau ci-dessous vous présente les majeures différences entre les deux : <br>
 <img src="https://user-images.githubusercontent.com/64969369/196706822-85fe76b5-3645-42cf-9185-7ac83e04bc5b.png" alt="Difference_between_clustering_classification" height="375px" width="700px">
+
 -<b>L'association</b>
 C'est un algorithme d'apprentissage non supervisé permettant d'identifier des relations(liens) entre différentes données d'une database, en utilisant certaines mesures d'intérêt.<br>
 
 <h3>Différences entre le Machine Learning et le Deep Learning</h3>
-La principale différence entre le ML et le DL se situe au niveau de l'extraction des caractéristiques encore appelé le **feature extraction.**<br>
-En effet, sachant que les données traitées en DL sont non-structurées(données qualitatives comme le son, l'image, le texte) il n'y a aucun intérêt à faire du Feature Extraction. Par exemple, lorsque nous travaillons sur une image , il est impossible pour nous de sélectionner manuellement tous les pixels de l'image. Vue que cela est impossible, il ne sera pas non plus possible d'extraire l'élément prédicteur d'une image donnée, et qui dit pas d'extraction d'élément prédicteur dit pas de Feature Extraction.<br>
-Par contre, en ML on utilisera des données structurées(données quantitatives comme les chiffres), ce qui nous permettra de faire de la Feature Extraction.<br>
+<img src="https://user-images.githubusercontent.com/64969369/196734096-04cbd653-bee9-4133-938e-bf8d1456002c.png" alt="Difference_between_ML_and_DL" height="375px" width="700px">
+
+La principale différence entre le ML et le DL se situe au niveau de l'extraction des caractéristiques encore appelé le **Feature Extraction.**<br>
+En effet, sachant que les données traitées en DL sont **non-structurées(données qualitatives comme le son, l'image, le texte)** il n'y a aucun intérêt à faire du Feature Extraction. Par exemple, lorsque nous travaillons sur une image , il est impossible pour nous de sélectionner manuellement tous les pixels de l'image. Vue que cela est impossible, il ne sera pas non plus possible d'extraire l'élément prédicteur d'une image donnée, et qui dit pas d'extraction d'élément prédicteur dit pas de Feature Extraction.<br>
+Par contre, en ML on utilisera des **données structurées(données quantitatives comme les chiffres)**, ce qui nous permettra de faire de la Feature Extraction.<br>
 Par exemple on pourrait essayer de résoudre le problème suivant :<br>
 **Etant donné les caractéristiques de mon appartenant, combien devrais-je payer pour le loyer ?**<br>
 Les caratéristiques ici ne sont rien d'autres que les variables issues de la Feature Extraction(elles peuvent être la surface(m²), meublé(1) ou non meublé(0), ect...)<br>
 Pour mener à bien la résolution de notre modèle, nous allons utiliser un training set contenant les variables citées plus hauts et le loyer associé.<br>
 A partir de là, nous allons entraîner le modèle tout en assurant que sa fonction de perte est minimale(plus la fonction de perte est minimale, plus le modèle est précis).<br>
 Après entraînement, nous pouvons utiliser le modèle afin de déterminer notre loyer.<br>
-Une autre différence entre le ML et le DL se situe au niveau de la traçabilité. En effet, il est possible pour l'être humain de comprendre dans la plupart des cas les résultats renvoyés par un algorithme de ML puisque généralement ces algorithmes sont entraînés via l'apprentissage supervisé.<br>
-A contrario, il est très difficile voire impossible de comprendre les résultats retournés par un algorithme de DL car ce dernier s'entraîne en utilisant l'apprentissage non supervisé(il est celui qui définit ses propres patterns).<br>
+Une autre différence entre le ML et le DL se situe au niveau de la **traçabilité**. En effet, il est possible pour l'être humain de comprendre dans la plupart des cas les résultats renvoyés par un algorithme de ML puisque généralement ces algorithmes sont entraînés via l'apprentissage supervisé.<br>
+A contrario, il est très difficile voire impossible de comprendre les résultats retournés par un algorithme de DL car ce dernier s'entraîne en utilisant **l'apprentissage non supervisé**(il est celui qui définit ses propres patterns).<br>
 C'est aussi pour cette raison que beaucoup d'experts en IA priorisent le ML au DL dans la mesure du possible.<br>
 <b>Note : </b>Le **Machine Learning Black Box**(la boîte noire de la l'apprentissage automatique) se produit lorsqu'un modèle de ML retourne un résultat ou prend une décision sans que nous soyons capables de l'expliquer.<br>
 Ci-dessous, se trouve une illustration animée, de la différence entre un modèle de ML transparent et un modèle boîte noire : <br>
-![Black_box_vs_transparent_model](https://user-images.githubusercontent.com/64969369/196732690-9a953eba-a1e4-47a3-9aa2-66786d263bb0.gif)
+
+<img src="https://user-images.githubusercontent.com/64969369/196732690-9a953eba-a1e4-47a3-9aa2-66786d263bb0.gif" alt="Difference_between_balckbox_transparent_model" height="375px" width="700px">
+
 
 
 
