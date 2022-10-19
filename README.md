@@ -231,7 +231,8 @@ Comme vous pouvez le voir, comme données étiquetées, nous avons les bananes e
 Eh voilà ^_^ , c'est comme ça que fonctionne le semi supevised learning.<br>
 Mathématiquement parlé °_°, voici une petite illustration : <br>
 <img src="https://user-images.githubusercontent.com/64969369/196696556-d849d6eb-3f44-4635-8a9a-8bb43548c5e9.png" alt="How_Semi_Supervised_Learning_Works" height="375px" width="700px">
-<b>Note : </b>Il y'a un dernier type d'apprentissage qui est l'apprentissage par renforcemement dont on ne fera pas mention vu qu'il n'intervient pas dans ce projet.<br>
+
+<b>Note : </b>Il y'a un dernier type d'apprentissage qui est l'apprentissage par renforcemement dont on ne fera pas mention vu qu'il n'intervient pas dans ce projet.<br>Egalement, il serait bien de noter que les prédictions faites généralement par un modèle entraîné par apprentissage supervisé sont **plus précises** que celles faites par un modèle entraîné en apprentissage non supervisé.<br>
 Nonobstant, vous pouvez retrouver ci-dessous un bref résumé des différents types d'apprentissage mais en english(Eh ouais :) , il vous faudra vous y habituez!! No way to avoid english when learning AI :()
 
 <h4>Récapitulation des différents types d'apprentissage</h4>
@@ -240,21 +241,21 @@ Nonobstant, vous pouvez retrouver ci-dessous un bref résumé des différents ty
 <h3>Algorithmes de l'apprentissage supervisé</h3>
 <img src="https://user-images.githubusercontent.com/64969369/196705365-ee71cc1b-9da5-4514-8b7a-962aad185b0b.png" alt="Supervised_Learning_Algorithms" height="375px" width="700px">
 Deux algorithmes d'apprentissage supervisé bien connus sont : 
-- La régression<br>
+-<b>La régression</b><br>
 
 C'est le est le processus de recherche d'un modèle en s'appuyant sur des **données quantitatives.**<br> 
 Cet algorithme exploite des **valeurs numériques** pour dégager une tendance ou une évolution prévisible dans le temps.<br>
 Il réalise des prédictions pour des variables continues ou réelles comme le salaire, les ventes, le prix des produits, l'évolution en poids ou en taille.<br>
 Il fonctionne de la façon suivante : dans un premier temps, il y a une phase préalable au cours de laquelle les **données sont collectées à partir des observations.** Ensuite, lesdites données sont tracées le long d'une ligne.<br>
 ***Lorsque la différence entre la valeur prédite et le résultat obtenu est presque la même, l'algorithme de régression linéaire peut être utilisé pour résoudre le problème.***
-- La classification<br>
+-<b>La classification</b><br>
 C'est le processus de recherche ou de découverte d'un modèle en s'appuyant sur des **données qualitatives(non-numériques).**<br>
 Elles séparent les données en plusieurs **classes**<br>
 Comme vous vous en doutiez, la différence entre ces deux types d'algorithme résident dans le type de données traitées.<br>
 Par exemple, la classification est utilisé par certaines organisations afin de séparer le spam(courriel indésirable) de votre messagerie principale.<br>
 <h3>Algorithmes de l'apprentissage non supervisé</h3>
-Deux algorithmes d'apprentissage non supervisé sont : 
--Le clustering
+Deux algorithmes d'apprentissage non supervisé sont :<br>
+-<b>Le clustering</b>
 C'est l'algorithme d'apprentissage non supervisé le plus utilisé.<br>
 Il permet de regrouper un ensemble d'entités(objets, individus) de telle sorte que ces dernières aient des caractéristiques communes.<br>
 On recourira au clustering lorsque l'on souhaite décomposer un ensemble d'objets en groupes d'objets ayant des traits similaires.<br>
@@ -262,14 +263,25 @@ Ci-dessous, vous trouverez une illustration du clustering :
 <img src="https://user-images.githubusercontent.com/64969369/196705792-e71a4896-6af8-4696-b3ef-97a845404ff6.png" alt="What_is_clustering" height="375px" width="700px">
 <b>Note : </b>Attention à **ne pas confondre le clustering avec la classification**, le tableau ci-dessous vous présente les majeures différences entre les deux : <br>
 <img src="https://user-images.githubusercontent.com/64969369/196706822-85fe76b5-3645-42cf-9185-7ac83e04bc5b.png" alt="Difference_between_clustering_classification" height="375px" width="700px">
-- L'association
+-<b>L'association</b>
 C'est un algorithme d'apprentissage non supervisé permettant d'identifier des relations(liens) entre différentes données d'une database, en utilisant certaines mesures d'intérêt.<br>
 
-<h3>Différences entre le Machine Learning et le Deap Learning</h3>
-Le 
-
-
-
+<h3>Différences entre le Machine Learning et le Deep Learning</h3>
+La principale différence entre le ML et le DL se situe au niveau de l'extraction des caractéristiques encore appelé le **feature extraction.**<br>
+En effet, sachant que les données traitées en DL sont non-structurées(données qualitatives comme le son, l'image, le texte) il n'y a aucun intérêt à faire du Feature Extraction. Par exemple, lorsque nous travaillons sur une image , il est impossible pour nous de sélectionner manuellement tous les pixels de l'image. Vue que cela est impossible, il ne sera pas non plus possible d'extraire l'élément prédicteur d'une image donnée, et qui dit pas d'extraction d'élément prédicteur dit pas de Feature Extraction.<br>
+Par contre, en ML on utilisera des données structurées(données quantitatives comme les chiffres), ce qui nous permettra de faire de la Feature Extraction.<br>
+Par exemple on pourrait essayer de résoudre le problème suivant :<br>
+**Etant donné les caractéristiques de mon appartenant, combien devrais-je payer pour le loyer ?**<br>
+Les caratéristiques ici ne sont rien d'autres que les variables issues de la Feature Extraction(elles peuvent être la surface(m²), meublé(1) ou non meublé(0), ect...)<br>
+Pour mener à bien la résolution de notre modèle, nous allons utiliser un training set contenant les variables citées plus hauts et le loyer associé.<br>
+A partir de là, nous allons entraîner le modèle tout en assurant que sa fonction de perte est minimale(plus la fonction de perte est minimale, plus le modèle est précis).<br>
+Après entraînement, nous pouvons utiliser le modèle afin de déterminer notre loyer.<br>
+Une autre différence entre le ML et le DL se situe au niveau de la traçabilité. En effet, il est possible pour l'être humain de comprendre dans la plupart des cas les résultats renvoyés par un algorithme de ML puisque généralement ces algorithmes sont entraînés via l'apprentissage supervisé.<br>
+A contrario, il est très difficile voire impossible de comprendre les résultats retournés par un algorithme de DL car ce dernier s'entraîne en utilisant l'apprentissage non supervisé(il est celui qui définit ses propres patterns).<br>
+C'est aussi pour cette raison que beaucoup d'experts en IA priorisent le ML au DL dans la mesure du possible.<br>
+<b>Note : </b>Le **Machine Learning Black Box**(la boîte noire de la l'apprentissage automatique) se produit lorsqu'un modèle de ML retourne un résultat ou prend une décision sans que nous soyons capables de l'expliquer.<br>
+Ci-dessous, se trouve une illustration animée, de la différence entre un modèle de ML transparent et un modèle boîte noire : <br>
+![Black_box_vs_transparent_model](https://user-images.githubusercontent.com/64969369/196732690-9a953eba-a1e4-47a3-9aa2-66786d263bb0.gif)
 
 
 
