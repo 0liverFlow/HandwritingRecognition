@@ -194,7 +194,7 @@ Grace à l'OCR, un grand nombre de documents papier pourront être numérisés e
 <b>Info : </b>**Océriser**, c'est l'action de transformer une image de texte imprimé en fichier de texte numérique.<br>
 
 <h3>Les différents types d'apprentissage</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196712308-cbc6a173-2c22-4f9c-ae40-3572e3a60476.png" alt="AI_Types_Of_Learning" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196713528-6df9b019-0724-4a89-a747-2312b3d111ef.png" alt="AI_Types_Of_Learning" height="375px" width="700px">
 
 Dans cette section, nous verrons les différents types d'apprentissage.<br>
 <b>Attentionnn, attachez bien votre ceinture, eh hop c'est parti :) !!!!!</b>
