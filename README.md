@@ -120,7 +120,7 @@ Elle a été conçu pour s'harmoniser avec d'autres bibiliothèques libres de Py
  <b>pip install tkinter</b>
  
  <h3>Autre alternative</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196752798-9dbe17a2-dedb-46bb-b5b1-72e9bc9b2cab.png" alt="OpenCV_logo" height="275px" width="500px">
+<img src="https://user-images.githubusercontent.com/64969369/196761500-d3d986ea-c4a1-4051-ad7c-c25ac1038b60.png" alt="OpenCV_logo" height="300px" width="600px">
 
 Au cas où vous ne souhaitiez pas installer Python et ses bibliothèques de façon séquentiel comme on l'a fait, vous pouvez opter pour l'installation de la **distribution Anaconda.**<br>
  **Anaconda** est une distribution open source destinée aux langages de programmation Python et R.<br>
