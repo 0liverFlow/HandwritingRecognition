@@ -46,7 +46,7 @@ L'IA doit son émancipation notamment :
 - A l'augmentation frénétique de la capacité de calcul des ordinateurs
 - A l'amélioration et l'accessibilité d'algorithmes de traitement de données.<br>
 <b>Note : </b>**Le Machine Learning et le Deep Learning sont des sous ensembles de l'IA.**
-<img src="https://user-images.githubusercontent.com/64969369/196711506-df6eb8cb-120c-4be4-8df6-d8b66a2ded05.png" alt="Machine_Learning_Kesako" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196711506-df6eb8cb-120c-4be4-8df6-d8b66a2ded05.png" alt="Machine_Learning_Kesako" height="450px" width="450px">
 
 
 
