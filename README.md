@@ -46,6 +46,9 @@ L'IA doit son émancipation notamment :
 - A l'augmentation frénétique de la capacité de calcul des ordinateurs
 - A l'amélioration et l'accessibilité d'algorithmes de traitement de données.<br>
 <b>Note : </b>**Le Machine Learning et le Deep Learning sont des sous ensembles de l'IA.**
+<img src="https://user-images.githubusercontent.com/64969369/196711506-df6eb8cb-120c-4be4-8df6-d8b66a2ded05.png" alt="Machine_Learning_Kesako" height="375px" width="700px">
+
+
 
 <h3>Machine Learning</h3>
 <img src="https://user-images.githubusercontent.com/64969369/194765053-bb0d47b2-51b1-4014-8b0b-b098488a5af8.png" alt="Machine_Learning_Kesako" height="375px" width="700px">
@@ -191,7 +194,8 @@ Grace à l'OCR, un grand nombre de documents papier pourront être numérisés e
 <b>Info : </b>**Océriser**, c'est l'action de transformer une image de texte imprimé en fichier de texte numérique.<br>
 
 <h3>Les différents types d'apprentissage</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196704544-88cf3b48-4fc6-4561-a350-0a0d6bb9de9a.png" alt="How_Supervised_Learning_Works" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196712308-cbc6a173-2c22-4f9c-ae40-3572e3a60476.png" alt="AI_Types_Of_Learning" height="375px" width="700px">
+
 Dans cette section, nous verrons les différents types d'apprentissage.<br>
 <b>Attentionnn, attachez bien votre ceinture, eh hop c'est parti :) !!!!!</b>
 
