@@ -131,8 +131,7 @@ Un programme informatique traditionnel effectue une tâche en suivant des instru
 A contrario, un système de Machine Learning ne suit pas d'instructions mais apprend à partir de l'entraînement. Par conséquent, ses performances s'améliorent à chaque fois qu'il est exposé à de nouvelles données(il n'est pas statique).
 
 <h3>Feature Extraction</h3>
-![image](https://user-images.githubusercontent.com/64969369/195976124-8eef23d5-3160-41bf-af9e-d0f52195ee7e.png)
-
+<img src="https://user-images.githubusercontent.com/64969369/196683748-402073e0-da38-4cf4-a653-2cbe2707157b.png" alt="How_Machine_Learning_Works" height="375px" width="700px">
 
 Le **Feature Extraction ou extraction de caractéristiques** est un processus qui consiste à **réduire la dimensionnalité des types d'observation** faites sur des données brutes(texte, image, son), en un ensemble plus petit afin de **pouvoir modélisé plus facilement.**</br>
 Grosso modo, cela est très utile lorsque les observations sont trop volumineuses dans leur forme brute pour être modélisées directement par des algorithmes prédictifs.</br>
@@ -148,7 +147,7 @@ Ces varaibles peuvent être en autres : l'age d'un invdividu, son sexe, ses cent
 Plus brièvement, **la présence d'un data scientist n'est pas du tout nécessaire dans ce scénario(gain de temps).**</br>
 
 <h3>Fonctionnement du Machine Learning</h3>
-![image](https://user-images.githubusercontent.com/64969369/195976630-bf69fb8f-e7c8-4184-81f9-70574af32d75.png)
+<img src="https://user-images.githubusercontent.com/64969369/195976630-bf69fb8f-e7c8-4184-81f9-70574af32d75.png" alt="How_Machine_Learning_Works" height="375px" width="900px">
 
 Il est indéniable que les données représentent l'essence du Machine Learning.</br>
 Comme l'a si bien dit le mathématicien Clime Humby : ***"Data is the new oil. Like oil, data is valuable, but if unrefined it cannot really be used. It has to be changed into gas, plastic, chemicals, etc. to create a valuable entity that drives profitable activity. So, must data be broken down, analysed for it to have value."***</br>
@@ -165,23 +164,25 @@ C'est la qu'intervient la phase de prédiction comme vous pouvez le voir sur la 
 
 <h3>Le traitement d'images</h3>
 Le traitement d'images est une discipline de l'informatique et des mathématiques qui étudie les images numériques et leurs transformations, dans le but d'améliorer leur qualité ou d'en extraire de l'information.</br>
-<b>Qu'est-ce qu'une image ?</b>
+
+<b>Qu'est-ce qu'une image ?</b><br>
 Une image est constitué de **pixels.**</br>
-Chaque **pixel est représenté par un nombre ou un ensemble de nombres.** La plage de ces nombres est appelée la **profondeur de couleur ou profondeur de bits.**</br>
+Chaque **pixel** est représenté par un nombre ou un ensemble de nombres.<br>**La plage de ces nombres est appelée la **profondeur de couleur ou profondeur de bits.**</br>
 En gros, la **profondeur de couleur indique le nombre maximum de couleurs potentielles qui peuvent être utilisées dans une image.**</br>
 Dans une image d'un octet(8bits) de type noir et blanc, chaque pixel à une valeur entre 0 et 255. </br>
 La plupart des images ont des couleurs de 24 bits ou plus.</br>
 Une image en RGB(Red Green Blue) signifie que la couleur d'un pixel est la combinaisondu rouge, vert et bleu.</br>
 Ainsi, chaque pixel contient un ensemble de trois valeurs(Par ex RGB(255,255,255) ou #FFF qui représente le blanc).</br>
 Une image de 800(width) * 600(height) contiendra 480000 px(abbr de pixel) ou 0.48 Mpx(Mégapixels).</br>
-<b>Comment fonctionne une caméra ?</b>
-Une caméra fonctionne comme une "mitraillette" à photos.</br>
+<b>Comment fonctionne une caméra ?</b><br>
+Une caméra fonctionne comme une **"mitraillette"** à photos.</br>
 En effet, elle permet d'enregistrer des images de façon très rapide pour constituer un flux vidéo quin n'est rien d'autre en réalité qu'une séquence de trames d'images.</br>
 La quantité d'images récupérées avec une grande vitesse est ce qu'on appelle **"Frame Per Second(FPS) ou IPS(Images Par Seconde) en français"**.
 Plus simplement, le **FPS représente le nombre d'images récupérés par seconde.** </br>
 Cette fréquence peut être différente selon le type de diffusion et de qualité.</br>
 
 <h3>Optical Character Reconnaissance (OCR)</h3>
+
 La reconnaissance optique des caractères(ROC en fr) ou océrisation, désigne les **procédés informatiques pour la traduction d'images de textes imprimés ou dactylographiées en fichiers de texte.**<br>
 Un ordinateur a besoin d'un logiciel d'OCR pour mener à bien la réalisation de pareil tâches.<br>
 Le logiciel d'océrisation permet de récupérer le texte dans l'image d'un texte imprimé et de le sauvegarder dans un fichier pouvant être exploité dans un traitement de texte et stocké dans une BDD ou sur un support de stockage(**Tesseract** est par exemple un logiciel d'océrisation open-source publié en 2006)<br>
@@ -190,7 +191,79 @@ Grace à l'OCR, un grand nombre de documents papier pourront être numérisés e
 <b>Info : </b>**Océriser**, c'est l'action de transformer une image de texte imprimé en fichier de texte numérique.<br>
 
 <h3>Les différents types d'apprentissage</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196704544-88cf3b48-4fc6-4561-a350-0a0d6bb9de9a.png" alt="How_Supervised_Learning_Works" height="375px" width="700px">
+Dans cette section, nous verrons les différents types d'apprentissage.<br>
+<b>Attentionnn, attachez bien votre ceinture, eh hop c'est parti :) !!!!!</b>
+
+<h4>Apprentissage supervisé (Supervised Learning)</h4>
+<img src="https://user-images.githubusercontent.com/64969369/196682187-5b87c1c8-1a5e-402a-8c19-6c128c88c431.png" alt="How_Supervised_Learning_Works" height="375px" width="700px">
+
+En **apprentissage supervisé**, les **données** utilisées pour l'entraînement(training set) sont **étiquetées ou labélisées.**<br>
+Dans un tel scenario, le **modèle sait d'ores et déjà les patterns(motifs)** qu'il doit chercher dans le training set. Le jeu de données d'entraînement est composé d'entrés et de sorties correctes.<br>
+L'algorithme estime sa précision grâce à  a fonction **loss**(nous le verrons plus bas :)) et l'ajuste au fur et à mesure qu'il apprend jusqu'à ce que l'erreur soit minime.<br>
+A la fin de l'apprentissage, le modèle entraîné sera capable de retrouver les mêmes éléments sur des données non annotées ou labélisées.<br>
+Dans la figure ci-dessus, on peut constater qu'après entraînement, notre modèle est capable de reconnaître les formes de façon autonome et ceci, grâce aux données labelisées que lui avons fournis lors de la phase d'apprentissage.<br>
+Mathématiquement parlé ^_^' , en apprentissage supervisé, pour chaque donnée d'entrée X, on associera une sortie correspondante Y. Ainsi, le travail de notre algorithme de ML sera de trouver la meilleure fonction f tel que f(X) = Y.
+Vous pouvez jetter un coup d'oeil sur la figure ci-dessous, qui illustre bien ce qui a été dit précédemment :
+<img src="https://user-images.githubusercontent.com/64969369/196688125-3b124ead-8d87-499e-83bb-7b5485896884.png" alt="How_Supervised_Learning_Works_mathematically" height="375px" width="700px">
+
+<h4>Apprentissage non supervisé (Unsupervised Learning)</h4>
+<img src="https://user-images.githubusercontent.com/64969369/196685303-a48c1fd4-a87b-4e24-9aaa-561ea5102a2f.png" alt="How_Unsupervised_Learning_Works" height="375px" width="700px">
+La principale différence entre le supervised learning et le unsupervised learning, est que **en unsupervised learning, les données d'entrées (input) ne sont ps étiquetées.**<br>
+En effet, notre algorithme **déterminera *tout seul* les similarités et les différences au sein du training set** mis à sa disposition.<br>
+Après avoir réalisé la tâche précédente, il va **regrouper les données partageant des caractéristiques communes.**<br>
+Ceci peut être visionné sur la figure ci-dessus.<br>
+Encore une fois, mathématiquement parlé :), en apprentissage non supervisé, on fournira juste des entrées X non étiquettées à notre algorithme. Ainsi, le travail de ce dernier sera de regrouper les X similaires puis de créer une fonction qui permet d'associer une nouvelle entrée Z à un des ensembles X préalablement créés par lui.<br>
+La figure ci-dessous est une illustration de ce qui a été expliqué ci-dessus :
+<img src="https://user-images.githubusercontent.com/64969369/196693081-d56ea760-0601-443f-8f1a-b26ec5bd243d.png" alt="How_Unsupervised_Learning_Works" height="375px" width="700px">
+
+<h4>Apprentissage semi-supervisé (Semi-supervised learning)</h4>
+<img src="https://user-images.githubusercontent.com/64969369/196693559-3267e660-a34e-4d5f-b0f9-019d2b62c6ad.png" alt="How_Semi_Supervised_Learning_Works" height="375px" width="700px">
+L'apprentissage semi-supervisé est un mixte de l'apprentissage supervisé et l'apprentissage non supervisé.<br>
+En effet, les données fournies en entrée à notre algorithme sont partielement étiquetées.<br>
+Il y'a un proverbe qui dit : **"Une image vaut mille mots"**, et c'est totalement vrai ;-)<br>
+Rentrons un peu plus en détail en jettant un coup d'oeil sur la figure ci-dessus.<br>
+Comme vous pouvez le voir, comme données étiquetées, nous avons les bananes et les oranges. Cependant les pommes ne sont pas étiquettés sachant qu'elles font partie du training set également. Dans un tel scenario, c'est à notre algorithme de se "débrouiller" pour déterminer en un premier lieu les caractéristiques des pommes puis de les regrouper en un second lieu.<br>
+Eh voilà ^_^ , c'est comme ça que fonctionne le semi supevised learning.<br>
+Mathématiquement parlé °_°, voici une petite illustration : <br>
+<img src="https://user-images.githubusercontent.com/64969369/196696556-d849d6eb-3f44-4635-8a9a-8bb43548c5e9.png" alt="How_Semi_Supervised_Learning_Works" height="375px" width="700px">
+<b>Note : </b>Il y'a un dernier type d'apprentissage qui est l'apprentissage par renforcemement dont on ne fera pas mention vu qu'il n'intervient pas dans ce projet.<br>
+Nonobstant, vous pouvez retrouver ci-dessous un bref résumé des différents types d'apprentissage mais en english(Eh ouais :) , il vous faudra vous y habituez!! No way to avoid english when learning AI :()
+
+<h4>Récapitulation des différents types d'apprentissage</h4>
+<img src="https://user-images.githubusercontent.com/64969369/196684875-66d3aa1a-eaa0-437e-a951-55e3a11a2cc6.png" alt="How_Semi_Supervised_Learning_Works" height="375px" width="700px">
+
+<h3>Algorithmes de l'apprentissage supervisé</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196705365-ee71cc1b-9da5-4514-8b7a-962aad185b0b.png" alt="Supervised_Learning_Algorithms" height="375px" width="700px">
+Deux algorithmes d'apprentissage supervisé bien connus sont : 
+- La régression<br>
+
+C'est le est le processus de recherche d'un modèle en s'appuyant sur des **données quantitatives.**<br> 
+Cet algorithme exploite des **valeurs numériques** pour dégager une tendance ou une évolution prévisible dans le temps.<br>
+Il réalise des prédictions pour des variables continues ou réelles comme le salaire, les ventes, le prix des produits, l'évolution en poids ou en taille.<br>
+Il fonctionne de la façon suivante : dans un premier temps, il y a une phase préalable au cours de laquelle les **données sont collectées à partir des observations.** Ensuite, lesdites données sont tracées le long d'une ligne.<br>
+***Lorsque la différence entre la valeur prédite et le résultat obtenu est presque la même, l'algorithme de régression linéaire peut être utilisé pour résoudre le problème.***
+- La classification<br>
+C'est le processus de recherche ou de découverte d'un modèle en s'appuyant sur des **données qualitatives(non-numériques).**<br>
+Elles séparent les données en plusieurs **classes**<br>
+Comme vous vous en doutiez, la différence entre ces deux types d'algorithme résident dans le type de données traitées.<br>
+Par exemple, la classification est utilisé par certaines organisations afin de séparer le spam(courriel indésirable) de votre messagerie principale.<br>
+<h3>Algorithmes de l'apprentissage non supervisé</h3>
+Deux algorithmes d'apprentissage non supervisé sont : 
+-Le clustering
+C'est l'algorithme d'apprentissage non supervisé le plus utilisé.<br>
+Il permet de regrouper un ensemble d'entités(objets, individus) de telle sorte que ces dernières aient des caractéristiques communes.<br>
+On recourira au clustering lorsque l'on souhaite décomposer un ensemble d'objets en groupes d'objets ayant des traits similaires.<br>
+Ci-dessous, vous trouverez une illustration du clustering : 
+<img src="https://user-images.githubusercontent.com/64969369/196705792-e71a4896-6af8-4696-b3ef-97a845404ff6.png" alt="What_is_clustering" height="375px" width="700px">
+<b>Note : </b>Attention à **ne pas confondre le clustering avec la classification**, le tableau ci-dessous vous présente les majeures différences entre les deux : <br>
+<img src="https://user-images.githubusercontent.com/64969369/196706822-85fe76b5-3645-42cf-9185-7ac83e04bc5b.png" alt="Difference_between_clustering_classification" height="375px" width="700px">
+- L'association
+C'est un algorithme d'apprentissage non supervisé permettant d'identifier des relations(liens) entre différentes données d'une database, en utilisant certaines mesures d'intérêt.<br>
+
 <h3>Différences entre le Machine Learning et le Deap Learning</h3>
+Le 
+
 
 
 
