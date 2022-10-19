@@ -38,7 +38,7 @@ De nombreuses **étapes de prétraitement de l'image précèdent la mise en oeuv
 # Outils utilisés
 La reconnaissance de caractères manuscrits en imagerie implique l'utilisation d'une panoplie outils, dont la majorité est développée en **Python**.<br>
 <h3>Python</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196743938-3ed163c1-b52d-422b-a4df-38f2f4c4053d.png" alt="Python_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196743938-3ed163c1-b52d-422b-a4df-38f2f4c4053d.png" alt="Python_logo" height="275px" width="500px">
 
 **Python** est un langage de programmation *interprétéé, multiparadigme et multiplateforme* créé par **Guido Van Rossum** en 1991.<br>
 Il est beaucoup utilisé dans le domaine de l'IA notamment pour faire de l'exploration de données, la classification, le clustering et de l'analyse prédictive.<br>
@@ -47,11 +47,11 @@ Il est beaucoup utilisé dans le domaine de l'IA notamment pour faire de l'explo
 Exécuter la cmd suivante en tant que superuser : <b>sudo apt-get install python3</b><br>
 <b>Windows ou Mac</b><br>
 Si vous utilisez un PC Windows ou un Mac, il vous faudra suivre les étapes suivantes :<br>
--Se rendre sur le <a href="https://www.python.org/" title="Visit Python official website">site officiel de Python </a><br>
--Ensuite télécharger la dernière version Python disponible à partir de l'onglet <a href="https://www.python.org/downloads/" title="télécharger Python">Download</a><br>
--Une fois le téléchargement terminée, aller dans le répertoire contenant votre archive, double-cliquer sur l'archive pour la décompresser puis installer finalement Python en suivant les différentes étapes qui s'afficheront sur votre écran.<br>
+- Se rendre sur le <a href="https://www.python.org/" title="Visit Python official website">site officiel de Python </a><br>
+- Ensuite télécharger la dernière version Python disponible à partir de l'onglet <a href="https://www.python.org/downloads/" title="télécharger Python">Download</a><br>
+- Une fois le téléchargement terminée, aller dans le répertoire contenant votre archive, double-cliquer sur l'archive pour la décompresser puis installer finalement Python en suivant les différentes étapes qui s'afficheront sur votre écran.<br>
 <h3>Scikit-Learn</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196747254-831ba242-36b0-428d-8d35-0108b8b243d0.png" alt="Scikit_Learn_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196747254-831ba242-36b0-428d-8d35-0108b8b243d0.png" alt="Scikit_Learn_logo" height="275px" width="500px">
 
 **Scikit-Learn** une bibliothèque libre Python, destinée à l'apprentissage automatique.<br>
 Elle comprend notamment des fonctions pour estimer des **régréssions logistiques, des algorithmes de classification, des forêts aléatoires.**<br>
@@ -62,14 +62,14 @@ Elle a été conçu pour s'harmoniser avec d'autres bibiliothèques libres de Py
 <b>pip install scikit-learn</b>
 
 <h3>NumPy</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196748394-8e39ab23-9502-40c9-9f2e-aefffcc016a0.png" alt="Numpy_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196748394-8e39ab23-9502-40c9-9f2e-aefffcc016a0.png" alt="Numpy_logo" height="275px" width="500px">
 **NumPy** est une bibliothèque libre de Python, utilisée pour **manipuler des matrices ou tableaux multidimensionnels** ainsi que des **fonctions mathématiques opérant sur ces tableaux**.<br>
 <h4>Installation</h4>
 <b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
 <b>pip install numpy</b>
 
 <h3>Matplotlib</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196749809-af8ef512-9357-4823-8a68-f2c7b21f4c74.png" alt="Matplotlib_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196749809-af8ef512-9357-4823-8a68-f2c7b21f4c74.png" alt="Matplotlib_logo" height="275px" width="500px">
 
 **Matplotlib** est une bibliothèque de Python, utilisée pour **tracer et visualiser des données sous forme graphique**.<br>
 <h4>Installation</h4>
@@ -77,7 +77,7 @@ Elle a été conçu pour s'harmoniser avec d'autres bibiliothèques libres de Py
 <b>pip install matplotlib</b>
 
 <h3>Pandas</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196750509-06e75734-2ebf-4571-befa-455c093d3c84.png" alt="Pandas_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196750509-06e75734-2ebf-4571-befa-455c093d3c84.png" alt="Pandas_logo" height="275px" width="500px">
 
 **Pandas** est une bibliothèque Python utilisée pour **manipuler et analyser les données.**<br>
 <h4>Installation</h4>
@@ -85,7 +85,7 @@ Elle a été conçu pour s'harmoniser avec d'autres bibiliothèques libres de Py
 <b>pip install pandas</b>
 
 <h3><Tensorflow</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196751114-7db1dc7e-3b95-4eca-a500-ac21f2748175.png" alt="Tensorflow_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196751114-7db1dc7e-3b95-4eca-a500-ac21f2748175.png" alt="Tensorflow_logo" height="275px" width="500px">
 
 **Tensorflow** est un outil open source de machine learning développé par **Google**.<br>
  Il est utilisé pour **le dévelopement et l'entraînement de modèles de machine learning.**<br>
@@ -94,7 +94,7 @@ Elle a été conçu pour s'harmoniser avec d'autres bibiliothèques libres de Py
 <b>pip install tensorflow</b>
 
 <h3>Keras</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196752230-7f787660-427b-44ca-83d4-4c2f92de8fa6.png" alt="Keras_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196752230-7f787660-427b-44ca-83d4-4c2f92de8fa6.png" alt="Keras_logo" height="275px" width="500px">
 
 **Keras** est une bibliothèque Python open source développé par le développeur de Google François Chollet.<br>
 <h4>Installation</h4>
@@ -102,14 +102,34 @@ Elle a été conçu pour s'harmoniser avec d'autres bibiliothèques libres de Py
 <b>pip install keras</b>
 
 <h3>OpenCV</h3>
-<img src="https://user-images.githubusercontent.com/64969369/196752798-9dbe17a2-dedb-46bb-b5b1-72e9bc9b2cab.png" alt="OpenCV_logo" height="375px" width="700px">
+<img src="https://user-images.githubusercontent.com/64969369/196752798-9dbe17a2-dedb-46bb-b5b1-72e9bc9b2cab.png" alt="OpenCV_logo" height="275px" width="500px">
 
 **OpenCV(Open Computer Vision)** est une bibliothèque graphique Python<br>
  Elle est **très utile dans le traitement d'images que ce soit pour la photo ou la vidéo.**<br>
 <h4>Installation</h4>
 <b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
- Pour télécharger OpenCV, vous pouvez vous rendre sur <a hrf="https://github.com/opencv/opencv" title='téléchargr_openCV">github</a> et cloner le dépôt.
-  
+ Pour télécharger OpenCV, vous pouvez vous rendre sur <a hrf="https://github.com/opencv/opencv" title="téléchargr_openCV">github</a> et cloner le dépôt.
+ 
+<h3>TKinter</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196755616-14ef1944-0aee-4488-a49e-b87fdb0358d3.png" alt="OpenCV_logo" height="275px" width="500px">
+
+**TKinter(Tool Kit interface)** est la bibliothèque graphique libre par défaut de Python.<br>
+ Elle permet de **créer des interfaces graphiques.**<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+ <b>pip install tkinter</b>
+ 
+ <h3>Autre alternative</h3>
+<img src="https://user-images.githubusercontent.com/64969369/196752798-9dbe17a2-dedb-46bb-b5b1-72e9bc9b2cab.png" alt="OpenCV_logo" height="275px" width="500px">
+
+Au cas où vous ne souhaitiez pas installer Python et ses bibliothèques de façon séquentiel comme on l'a fait, vous pouvez opter pour l'installation de la **distribution Anaconda.**<br>
+ **Anaconda** est une distribution open source destinée aux langages de programmation Python et R.<br>
+ Il est véritablement utilisé en **data science, machine learning et l’intelligence artificielle** car il contient plusieurs packages nécessaires dans ce domaine notamment Numpy, Panda, Jupyter.<br>
+ Grosso modo, il vise à **simplifier la gestion des paquets et leur déploiement.**<br>
+<h4>Installation</h4>
+<b>Multiplateforme(Mac, Windows, GNU/Linux)</b><br>
+ Pour l'installer , se rendre sur le <a href="https://www.anaconda.com/" title="Download Anaconda">site web officiel d'anaconda</a> puis cliquer sur le bouton download.
+ 
 # Glossaire
 <h3>Intelligence Artificielle</h3>
 <img src="https://user-images.githubusercontent.com/64969369/194767092-3ed5896c-5350-4676-b6b0-419c191cab6d.png" alt="AI_Kesako" height="375px" width="700px">
